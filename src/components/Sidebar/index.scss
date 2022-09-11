@@ -11,15 +11,12 @@
       display: block;
       padding: 8px 0;
   
-      img {
+      .logo-img {
         display: block;
         margin: 8px auto;
         width: 24px;
         height: auto;
-  
-        &.sub-logo {
-          width: 50px;
-        }
+        color: #ffd700;
       }
     }
   
@@ -83,16 +80,16 @@
           content: 'ABOUT';
         }
       }
-  
+      
+      a.projects-link {
+        &:after {
+          content: 'PROJECTS';
+        }
+      }
+
       a.contact-link {
         &:after {
           content: 'CONTACT';
-        }
-      }
-  
-      a.portfolio-link {
-        &:after {
-          content: 'PORTFOLIO';
         }
       }
   
